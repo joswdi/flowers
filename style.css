@@ -1,0 +1,58 @@
+.header {
+    background-color: #ddbea9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    height: 100px;
+}
+.text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #260c1a;
+    font-size: 24px;
+}
+.title {
+    font-family:'Great Vibes', cursive;
+    font-size: 45px;
+}
+.headings {
+    font-weight: 500;
+    padding: 10px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    background-color: #ffe8d6;
+}
+.block {
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.catalog-block {
+    height: 450px;
+    width: 550px;
+    float: right;
+    overflow-y: auto;
+}
+img {
+    height: 200px;
+    width: 200px;
+    align-self: flex-start;
+    border-radius: 10px;
+    float: left;
+}
